@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald&display=swap");
+
+body {
+  font-family: "Oswald", sans-serif;
+  color: ivory;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to left, coral 0%, firebrick 100%);
+}
+
+input:focus::-webkit-input-placeholder {
+  color: transparent;
+  transition: color 250ms ease-in;
+}
+input:focus:-moz-placeholder {
+  color: transparent;
+  transition: color 250ms ease-in;
+} /* FF 4-18 */
+input:focus::-moz-placeholder {
+  color: transparent;
+  transition: color 250ms ease-in;
+} /* FF 19+ */
+input:focus:-ms-input-placeholder {
+  color: transparent;
+  transition: color 250ms ease-in;
+} /* IE 10+ */
+
+*:focus {
+  outline-color: firebrick;
+  transition: outline-color 250ms ease-in;
+}

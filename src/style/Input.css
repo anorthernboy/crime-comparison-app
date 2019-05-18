@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css?family=Special+Elite|Oswald&display=swap");
+
+.postcode-entry,
+.postcode-entry:focus {
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 2.5vh;
+  padding: 1px;
+  margin: 0.25rem;
+  border-style: none;
+  border-radius: 0px;
+  height: 4vh;
+  width: 60vw;
+  max-width: 400px;
+  background-color: ivory;
+  color: #464646;
+}
+
+.postcode-entry:hover {
+  cursor: pointer;
+}
+
+.postcode-submit {
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 2.5vh;
+  color: ivory;
+  background-color: firebrick;
+  padding: 1px;
+  margin: 0.25rem;
+  border-style: none;
+  border-radius: 0px;
+  height: 4.5vh;
+  width: 60.5vw;
+  max-width: 402px;
+}
+
+.postcode-submit:hover {
+  cursor: pointer;
+  background-color: #c1332d;
+  transition: background-color 100ms ease-in;
+}
+
+.postcode-error {
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 2.5vh;
+  color: ivory;
+  background-color: coral;
+  padding: 1px;
+  margin: 0.25rem auto;
+  border-style: none;
+  border-radius: 0px;
+  height: 4.5vh;
+  width: 60.5vw;
+  max-width: 402px;
+}

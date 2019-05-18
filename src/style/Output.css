@@ -1,0 +1,43 @@
+.chart-legend {
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 2.5vh;
+  padding: 1px;
+  margin: 0.25rem auto;
+  margin-top: 0.5rem;
+  border-style: none;
+  border-radius: 0px;
+  height: 4vh;
+  width: 60vw;
+  max-width: 400px;
+}
+
+.legend-current {
+  background-color: coral;
+}
+
+.legend-new {
+  background-color: firebrick;
+}
+
+.legend-retry {
+  background-color: ivory;
+  color: #464646;
+}
+
+.legend-retry:hover {
+  cursor: pointer;
+  background-color: #f1f1e2;
+  transition: background-color 100ms ease-in;
+}
+
+@media (max-width: 1025px) {
+  .legend-current {
+    margin-top: 1.5rem;
+  }
+
+  .legend-retry {
+    margin-top: 1.5rem;
+  }
+}

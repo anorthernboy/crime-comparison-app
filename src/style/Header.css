@@ -1,0 +1,25 @@
+header {
+  text-transform: uppercase;
+  height: 8vh;
+  color: ivory;
+  text-align: center;
+}
+
+.app-header {
+  font-size: 5.5vh;
+}
+
+.app-header:hover {
+  cursor: pointer;
+  color: #f1f1e2;
+  transition: color 100ms ease-in;
+}
+
+@media (max-width: 1025px) {
+  header {
+    height: 12vh;
+  }
+  .app-header {
+    margin-top: 4vh;
+  }
+}
